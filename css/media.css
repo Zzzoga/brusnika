@@ -508,6 +508,34 @@
     .row input.btn.submit__btn, .row .politics {
         flex: auto;
     }
+
+    .hidden__detail__list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .detail__item .num {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: var(--red);
+        font-size: 24px;
+        line-height: 1;
+        border-radius: 50%;
+        color: var(--white);
+        z-index: 9;
+        font-weight: 300;
+        cursor: pointer;
+        transition: all .5s ease;
+    }
+    
+    .plus {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 600px) {
