@@ -412,6 +412,7 @@ h3.about__item__title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .about__item__text {
