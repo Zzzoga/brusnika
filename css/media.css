@@ -1,0 +1,789 @@
+@media only screen and (max-width : 1600px) {
+    nav.menu {
+        gap: 15px;
+    }
+
+    header.header .section__wrapper, section.top__screen .container {
+        max-width: 1200px;
+    }
+    
+    p.subtitle {
+        font-size: 16px;
+    }
+    
+    h1.title {
+        font-size: 36px;
+        max-width: 360px;
+        margin: 5px 0 15px 0;
+    }
+    
+    p.start {
+        font-size: 16px;
+        padding: 14px 30px;
+    }
+    
+    .top__right {
+        height: 360px;
+        width: 100%;
+    }
+    
+    .container {
+        gap: 30px;
+        padding-top: 50px;
+    }
+    
+    h3.top__bit__title {
+        line-height: 1.2;
+    }
+    
+    a.logo svg {
+        width: 100px;
+        height: 38px;
+    }
+    
+    a.nav__link {
+        font-size: 14px;
+    }
+    
+    .header__control {
+        gap: 15px;
+    }
+    
+    a.wh svg, a.tg svg {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .soc__btns {
+        gap: 10px;
+    }
+    
+    a.call__btn.btn.btn__wob {
+        height: 40px;
+        width: 180px;
+        font-size: 14px;
+    }
+    
+    a.call {
+        font-size: 14px;
+    }
+    
+    h3.bottom__block__title {
+        font-size: 16px;
+    }
+    
+    h2.section__title {
+        font-size: 32px;
+    }
+    
+    body {
+        font-size: 20px;
+    }
+    
+    footer.footer .section__wrapper {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width : 1366px) {
+    header.header .section__wrapper, section.top__screen .container {
+        max-width: 1000px;
+    }
+    
+    .section__wrapper {
+        max-width: 1000px;
+    }
+    
+    a.logo svg {
+        width: 80px;
+        height: 30px;
+    }
+    
+    a.logo {
+        width: 80px;
+        height: 30px;
+    }
+    
+    nav.menu {
+        gap: 20px;
+    }
+    
+    a.call__btn.btn.btn__wob {
+        font-size: 12px;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.call__btn.btn.btn__wob img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    a.call {
+        display: none;
+    }
+
+    .top__right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .bottom__block {
+        width: 320px;
+    }
+
+    .projects__container {
+        max-width: 720px;
+    }
+    
+    .project__item {
+        height: 100%;
+    }
+    
+    .project__item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .view__item {
+        max-width: 490px;
+    }
+}
+
+@media only screen and (max-width : 1180px) {
+    h3.top__bit__title {
+        font-size: 20px;
+        max-width: 70%;
+        bottom: 80px;
+    }
+    
+    .top__right {
+        height: 300px;
+    }
+    
+    .top__right a.btn {
+        font-size: 14px;
+        padding: 10px 25px;
+        bottom: 30px;
+    }
+    
+    .top__right a.btn svg {
+        width: 20px;
+        height: 10px;
+    }
+    
+    .bottom__block {
+        width: 300px;
+    }
+    
+    h2.section__title {
+        font-size: 26px;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    h3.about__item__title {
+        font-size: 32px;
+    }
+    
+    section {
+        margin-bottom: 75px;
+    }
+    
+    input.form__input {
+        height: 40px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    input.submit__btn {
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .form__content {
+        max-width: 300px;
+    }
+    
+    p.form__text {
+        font-size: 14px;
+    }
+    
+    .form__container {
+        height: 340px;
+    }
+    
+    .project__item a.btn {
+        height: 40px;
+        width: 140px;
+        font-size: 14px;
+    }
+    
+    .view__item {
+        max-width: 380px;
+    }
+    
+    h3.view__title {
+        font-size: 20px;
+        margin: 25px 0 10px 0;
+    }
+    
+    a.btn.view__more {
+        margin-bottom: 25px;
+        font-size: 14px;
+        height: 40px;
+        width: 140px;
+    }
+    
+    .contacts__form {
+        max-width: 600px;
+    }
+    
+    p.contacts__form__text {
+        font-size: 14px;
+    }
+    
+    footer.footer .section__wrapper {
+        max-width: 1000px;
+    }
+
+    a.modal__btn.btn {
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .modal__content {
+        font-size: 14px;
+    }
+    
+    .modal__wrapper {
+        padding: 30px;
+        max-width: 500px;
+    }
+    
+    .modal.modal__view .modal__wrapper {
+        max-width: 680px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    nav.menu {
+        display: none;
+    }
+    
+    .burger {
+        display: flex;
+        gap: 10px;
+    }
+    
+    a.logo {
+        width: 120px;
+        height: 45px;
+    }
+    
+    a.logo svg {
+        width: 120px;
+        height: 45px;
+    }
+    
+    a.call {
+        font-size: 16px;
+    }
+    
+    a.call__btn.btn.btn__wob {
+        font-size: 16px;
+        width: 36px;
+    }
+    
+    .top, .bottom {
+        flex-direction: column;
+    }
+    
+    .top__left, .top__right {
+        flex: auto;
+    }
+    
+    .bottom__right {
+        display: none;
+    }
+    
+    .bottom__left {
+        flex: auto;
+        width: 100%;
+    }
+    
+    .top__left {
+        align-items: center;
+    }
+    
+    h1.title {
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .section__wrapper {
+        padding: 0 20px;
+    }
+    
+    .bottom__block {
+        flex: 1;
+    }
+    
+    
+    h3.top__bit__title {
+        font-size: 24px;
+    }
+    
+    .top__right a.btn {
+        font-size: 16px;
+        padding: 12px 40px;
+    }
+    
+    .top__right {
+        height: 320px;
+    }
+    
+    .about__list {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+    .about__item {
+        width: 48%;
+    }
+    
+    .projects__wrapper {
+        flex-direction: column;
+    }
+    
+    .projects__nav {
+        height: auto;
+        flex-direction: row;
+        max-width: 100%;
+    }
+    
+    a.project__nav__item {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    
+    span.name {
+        display: none;
+    }
+    
+    span.size {
+        line-height: 1;
+    }
+
+    .detail__item.detail__1 {
+        left: 305px;
+        top: 40px;
+    }
+    
+    .detail__item.detail__2 {
+        left: 400px;
+        top: 142px;
+    }
+    
+    .detail__item.detail__3 {
+        left: 230px;
+        top: 200px;
+    }
+    
+    .detail__item.detail__4 {
+        bottom: 32px;
+    }
+    
+    .detail__item.detail__5 {
+        right: 150px;
+        bottom: 30px;
+    }
+    
+    .detail__text {
+        display: none;
+    }
+
+    .buy__list {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .buy__item {
+        width: 48.5%;
+        height: 200px;
+    }
+    
+    section.contacts .section__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contacts__form {
+        max-width: 50%;
+    }
+
+    .modal.modal__nav {
+        z-index: 99;
+    }
+    
+    .modal__wrapper {
+        max-width: 100%;
+        height: 100%;
+        border-radius: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.modal__btn.btn {
+        width: 260px;
+    }
+    
+    .modal.modal__view .modal__wrapper {
+        max-width: 100%;
+    }
+    
+    .modal__navs {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 80px;
+        align-items: center;
+    }
+    
+    a.modal__nav__link {
+        font-size: 24px;
+        color: var(--black);
+        text-decoration: none;
+    }
+    
+    .modal.modal__nav .modal__wrapper {
+        background: var(--white);
+    }
+    
+    .modal__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    a.modal__link {
+        color: var(--black);
+        text-decoration: none;
+        font-size: 24px;
+    }
+    
+    .modal__contacts a.btn.modal__btn {
+        margin: 0;
+        font-size: 18px;
+        height: 50px;
+    }
+
+    .view__item {
+        max-width: 100%;
+        flex: 1;
+    }
+    
+    .view__list {
+        gap: 20px;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+    
+    .row input.form__input {
+        flex: auto;
+    }
+    
+    .row input.btn.submit__btn, .row .politics {
+        flex: auto;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .header__control {
+        display: none;
+    }
+    
+    h1.title {
+        font-size: 21px;
+    }
+    
+    p.subtitle {
+        font-size: 14px;
+    }
+    
+    p.start {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+    
+    h3.top__bit__title {
+        font-size: 16px;
+    }
+    
+    .top__right {
+        height: 245px;
+    }
+    
+    .top__right a.btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    
+    .top__right img {
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .bottom__left {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .bottom__block {
+        flex: auto;
+        width: 100%;
+        height: 120px;
+        align-items: flex-start;
+    }
+    
+    .bottom__block img {
+        height: auto;
+        position: relative;
+        bottom: 25px;
+    }
+    
+    .container {
+        gap: 15px;
+    }
+    
+    h2.section__title {
+        text-align: center;
+    }
+    
+    .about__item {
+        width: 100%;
+    }
+    
+    .slider__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .slider__arrows {
+        position: inherit;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .benefits__slider {
+        width: 100%;
+        height: 240px;
+        border-radius: 20px;
+    }
+    
+    .benefits__slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .form__container {
+        background: url(../img/form_mob.png) no-repeat center bottom;
+        background-size: 120%;
+        padding: 240px 20px 20px 20px;
+        height: auto;
+    }
+    
+    .form__content {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .projects__nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+    
+    span.name {
+        display: flex;
+        font-size: 14px;
+    }
+    
+    a.project__nav__item {
+        flex-direction: row;
+        padding: 10px 15px;
+    }
+    
+    .project__item a.btn {
+        font-size: 12px;
+        height: 30px;
+        width: 120px;
+        border-radius: 5px;
+    }
+    
+    .plus {
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+    }
+    
+    .detail__item.detail__1 {
+        left: 145px;
+        top: 15px;
+    }
+    
+    .detail__item.detail__2 {
+        left: 190px;
+        top: 75px;
+    }
+    
+    .detail__item.detail__3 {
+        left: 115px;
+        top: 100px;
+    }
+    
+    .detail__item.detail__4 {
+        bottom: 15px;
+    }
+    
+    .detail__item.detail__5 {
+        bottom: 15px;
+        right: 80px;
+    }
+
+    .buy__item {
+        width: 100%;
+        height: auto;
+        gap: 30px;
+        flex: auto;
+    }
+    
+    .buy__list {
+        gap: 10px;
+    }
+    
+    .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .row input.form__input {
+        flex: auto;
+    }
+    
+    .row input.btn.submit__btn, .row .politics {
+        flex: auto;
+    }
+    
+    .contacts__form form {
+        gap: 10px;
+    }
+    
+    footer.footer .section__wrapper {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .plus {
+        display: none;
+    }
+
+    .detail__item .num,
+    .hidden__detail__list {
+        display: flex;
+    }
+
+    .hidden__detail__list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        font-size: 16px;
+        gap: 5px;
+    }
+    
+    .num {
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        background: var(--red);
+        font-size: 12px;
+        line-height: 1;
+        border-radius: 50%;
+        color: var(--white);
+        font-weight: 300;
+        cursor: pointer;
+        transition: all .5s ease;
+    }
+    
+    .view__list {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .map__wrapper {
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    
+    a.modal__nav__link {
+        font-size: 20px;
+    }
+    
+    .modal__navs {
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .modal__contacts {
+        gap: 10px;
+    }
+    
+    a.modal__link {
+        font-size: 20px;
+    }
+
+    p.benefits__text {
+        left: 25px;
+        bottom: 25px;
+    }
+    
+    .project__item {
+        height: 240px;
+    }
+    
+    .projects__container {
+        height: 240px;
+    }
+    
+    .contacts__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contacts__form {
+        max-width: 100%;
+    }
+
+    .view__item {
+        flex: auto;
+    }
+}

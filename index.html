@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>КП Брусника</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<div class="modal modal__project">
+		<div class="modal__overlay"></div>
+		<div class="modal__wrapper">
+			<div class="modal__close">+</div>
+			<div class="modal__content">
+				
+			</div>
+			<a href="#contacts" class="modal__btn btn">Заказать расчет стоимости</a>
+		</div>
+	</div>
+
+	<div class="modal modal__view">
+		<div class="modal__overlay"></div>
+		<div class="modal__wrapper">
+			<div class="modal__close">+</div>
+			<div class="modal__content">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="modal modal__nav">
+		<div class="modal__wrapper">
+			<div class="modal__navs">
+				<a href="#about" class="modal__nav__link">О поселке</a>
+				<a href="#benefits" class="modal__nav__link">Преимущества</a>
+				<a href="#projects" class="modal__nav__link">Проекты</a>
+				<a href="#home" class="modal__nav__link">Технология</a>
+				<a href="#view" class="modal__nav__link">Отделка</a>
+				<a href="#buy" class="modal__nav__link">Покупка</a>
+				<a href="#map" class="modal__nav__link">Расположение</a>
+				<a href="#contacts" class="modal__nav__link">Контакты</a>
+			</div>
+			<div class="modal__contacts">
+				<a href="tel:+7 (347) 226‒20‒45" class="modal__call modal__link">+7 (347) 226‒20‒45</a>
+				<a href="mailto:office@uralsgroup.ru" class="modal__mail modal__link">office@uralsgroup.ru</a>
+				<a href="#contacts" class="btn modal__btn">Заказать звонок</a>
+			</div>
+		</div>
+	</div>
+
+	<header class="header"> 
+		<div class="section__wrapper">
+			<a href="/" class="logo">
+				<svg width="2176" height="810" viewBox="0 0 2176 810" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M193.737 778.01L193.191 468.53L0.903809 470.42L517.926 0.150879L734.15 0.537903L1148.94 454.04L692.78 34.4299L352.607 341.66V806.27H69.6388" fill="#4E0000"/>
+					<path d="M528.311 652.46V614.34H459.484V674.87H476.363C509.152 674.87 532.846 680.23 547.445 690.95C562.045 701.67 569.345 718.23 569.345 740.64C569.345 762.95 562.239 779.47 548.028 790.19C533.816 800.91 511.14 806.27 480.001 806.27H399.242V778.91H426.598V614.34H399.242V586.98H555.376V652.46H528.311ZM535.732 739.77C535.732 726.28 531.366 716.51 522.636 710.45C513.905 704.38 500.082 701.35 481.165 701.35H459.484V778.91H484.512C503.331 778.91 516.573 775.93 524.236 769.96C531.9 763.99 535.732 753.93 535.732 739.77Z" fill="#4E0000"/>
+					<path d="M755.6 654.64C755.6 674.63 749.44 690.83 737.12 703.24C724.8 715.66 703.94 721.97 674.55 722.16H645.74V778.91H674.26V806.27H585.206V778.91H612.56V614.34H585.206V586.98H666.84C688.86 586.98 706.34 589.36 719.29 594.11C732.24 598.86 741.53 606.11 747.16 615.86C752.79 625.61 755.6 638.54 755.6 654.64ZM721.99 653.91C721.99 640.24 717.96 630.22 709.91 623.87C701.86 617.51 688.08 614.34 668.58 614.34H645.74V695.68H666.26C679.74 695.68 690.51 694.44 698.56 691.97C706.61 689.49 712.53 685.22 716.31 679.16C720.09 673.1 721.99 664.68 721.99 653.91Z" fill="#4E0000"/>
+					<path d="M831.41 614.34L881.76 709.65L926.72 614.34H898.49V586.98H980.12V614.34H957.42L903.88 725.51C893.88 746.36 885.76 761.96 879.5 772.29C873.25 782.62 865.46 791.2 856.15 798.04C846.84 804.88 835.19 808.3 821.23 808.3C812.49 808.3 804.25 807.33 796.49 805.39V778.91C804.05 780.46 810.85 781.24 816.86 781.24C827.14 781.24 835.92 777.96 843.2 771.42C850.47 764.87 857.65 754.51 864.73 740.35L796.2 614.34H770.3V586.98H860.37V614.34H831.41Z" fill="#4E0000"/>
+					<path d="M1162.59 611.13V586.98H1190.53V657.26H1162.01C1154.83 643.2 1144.99 632.23 1132.47 624.38C1119.96 616.52 1106.23 612.59 1091.29 612.59C1076.84 612.59 1063.94 616.4 1052.59 624.01C1041.24 631.63 1032.39 641.81 1026.03 654.57C1019.68 667.33 1016.5 681.03 1016.5 695.68C1016.5 710.81 1019.82 724.78 1026.47 737.58C1033.11 750.39 1042.26 760.62 1053.9 768.29C1065.54 775.95 1078.49 779.78 1092.75 779.78C1110.31 779.78 1125.83 774.42 1139.31 763.7C1152.8 752.98 1162.64 737.78 1168.85 718.09L1196.79 732.93C1189.22 757.37 1175.86 776.31 1156.7 789.75C1137.54 803.19 1115.06 809.9 1089.26 809.9C1068.01 809.9 1049.14 804.83 1032.65 794.7C1016.16 784.56 1003.33 770.93 994.17 753.81C985 736.69 980.41 717.89 980.41 697.42C980.41 675.21 985.1 655.42 994.46 638.05C1003.82 620.69 1016.74 607.23 1033.24 597.67C1049.73 588.12 1068.59 583.34 1089.84 583.34C1104.1 583.34 1117.24 585.72 1129.27 590.47C1141.3 595.23 1152.41 602.11 1162.59 611.13Z" fill="#4E0000"/>
+					<path d="M1277.4 614.34V676.32H1372.71V614.34H1347.1V586.98H1431.06V614.34H1405.74V778.91H1431.06V806.27H1347.1V778.91H1372.71V703.68H1277.4V778.91H1303.3V806.27H1219.49V778.91H1244.23V614.34H1219.49V586.98H1303.3V614.34H1277.4Z" fill="#4E0000"/>
+					<path d="M1503.82 614.34V725.51L1599.27 632.23V614.34H1573.66V586.98H1657.33V614.34H1632.31V778.91H1657.33V806.27H1573.66V778.91H1599.27V664.97L1503.82 759.12V778.91H1529.57V806.27H1445.76V778.91H1470.79V614.34H1445.76V586.98H1529.57V614.34H1503.82Z" fill="#4E0000"/>
+					<path d="M1729.8 614.34V778.91H1755.12V806.27H1669.27V778.91H1696.62V614.34H1669.27V586.98H1758.03V614.34H1729.8ZM1838.79 614.34L1770.83 690.58L1840.68 778.91H1864.11V806.27H1775.05V778.91H1799.21L1733.29 691.6L1801.24 614.34H1775.93V586.98H1862.07V614.34H1838.79Z" fill="#4E0000"/>
+					<path d="M2019.07 613.46L2078.44 778.91L2079.2 778.96L2175.1 806.27H2016.46V778.91H2045.12L2028.1 729.14H1948.5L1931.48 778.91H1959.27V806.27H1872.25V778.91H1898.74L1957.81 613.46H1931.48V586.98H2045.41V613.46H2019.07ZM1989.1 613.46H1988.08L1957.09 703.39H2019.37L1989.1 613.46Z" fill="#4E0000"/>
+				</svg>												
+			</a>
+			<nav class="menu">
+				<a href="#about" class="nav__link">О поселке</a>
+				<a href="#benefits" class="nav__link">Преимущества</a>
+				<a href="#projects" class="nav__link">Проекты</a>
+				<a href="#home" class="nav__link">Технология</a>
+				<a href="#view" class="nav__link">Отделка</a>
+				<a href="#buy" class="nav__link">Покупка</a>
+				<a href="#map" class="nav__link">Расположение</a>
+				<a href="#contacts" class="nav__link">Контакты</a>
+			</nav>
+			<div class="burger">
+				<span>Меню</span>
+				<img src="img/burger.svg" alt="">
+			</div>
+			<div class="header__control">
+				<div class="soc__btns hidden">
+					<a href="#" class="wh">
+						<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_34_14)">
+							<path d="M19.9996 39.7183C30.8897 39.7183 39.7179 30.8901 39.7179 20C39.7179 9.10988 30.8897 0.281689 19.9996 0.281689C9.10944 0.281689 0.28125 9.10988 0.28125 20C0.28125 30.8901 9.10944 39.7183 19.9996 39.7183Z" stroke="#333333"/>
+							<path d="M19.9999 10.7042C25.134 10.7042 29.2957 14.8659 29.2957 20C29.2957 25.134 25.134 29.2958 19.9999 29.2958C18.3571 29.2984 16.7433 28.8637 15.3241 28.0362L10.7078 29.2958L11.9646 24.6776C11.1365 23.258 10.7014 21.6435 10.7041 20C10.7041 14.8659 14.8659 10.7042 19.9999 10.7042ZM16.8319 15.631L16.646 15.6384C16.5256 15.6457 16.408 15.6774 16.3002 15.7314C16.1993 15.7885 16.1073 15.8599 16.0269 15.9433C15.9153 16.0483 15.8521 16.1394 15.7843 16.2278C15.4405 16.6748 15.2553 17.2237 15.2581 17.7876C15.26 18.2431 15.379 18.6865 15.5649 19.1011C15.9451 19.9395 16.5707 20.8273 17.3962 21.65C17.5951 21.848 17.7903 22.0469 18.0004 22.2319C19.0261 23.1349 20.2483 23.7862 21.57 24.1338L22.098 24.2147C22.2699 24.224 22.4419 24.211 22.6148 24.2026C22.8855 24.1886 23.1499 24.1153 23.3891 23.9879C23.5109 23.9252 23.6297 23.857 23.7452 23.7834C23.7452 23.7834 23.7851 23.7574 23.8614 23.6997C23.9869 23.6068 24.064 23.5407 24.1681 23.432C24.2453 23.3521 24.3122 23.2581 24.3633 23.1513C24.4358 22.9997 24.5083 22.7106 24.5381 22.4699C24.5604 22.2858 24.5539 22.1854 24.5511 22.1232C24.5474 22.0237 24.4647 21.9205 24.3745 21.8768L23.8335 21.6342C23.8335 21.6342 23.0247 21.2819 22.5302 21.0569C22.4785 21.0343 22.423 21.0214 22.3666 21.0188C22.303 21.0123 22.2387 21.0194 22.1781 21.0398C22.1175 21.0602 22.062 21.0932 22.0152 21.1368C22.0106 21.135 21.9483 21.188 21.2762 22.0023C21.2376 22.0541 21.1845 22.0933 21.1236 22.1148C21.0626 22.1363 20.9967 22.1393 20.9341 22.1232C20.8736 22.1069 20.8143 22.0864 20.7566 22.0618C20.6413 22.0135 20.6014 21.9949 20.5223 21.9614C19.9888 21.7286 19.4948 21.414 19.0583 21.029C18.9411 20.9268 18.8323 20.8152 18.7208 20.7074C18.3551 20.3572 18.0364 19.961 17.7726 19.5287L17.7178 19.4404C17.6784 19.3811 17.6465 19.317 17.623 19.2498C17.5877 19.1132 17.6797 19.0035 17.6797 19.0035C17.6797 19.0035 17.9056 18.7562 18.0106 18.6224C18.1128 18.4922 18.1993 18.3658 18.2551 18.2756C18.3648 18.099 18.3992 17.9177 18.3415 17.7774C18.0812 17.1415 17.8117 16.5085 17.5346 15.8801C17.4798 15.7555 17.3171 15.6663 17.1694 15.6486C17.1192 15.643 17.069 15.6375 17.0188 15.6337C16.8939 15.6275 16.7688 15.6288 16.6441 15.6375L16.8319 15.631Z" fill="#333333"/>
+							</g>
+							<defs>
+							<clipPath id="clip0_34_14">
+							<rect width="40" height="40" fill="white"/>
+							</clipPath>
+							</defs>
+						</svg>							
+					</a>
+					<a href="#" class="tg">
+						<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_34_17)">
+							<path d="M19.9996 39.7183C30.8897 39.7183 39.7179 30.8901 39.7179 20C39.7179 9.10988 30.8897 0.281689 19.9996 0.281689C9.10944 0.281689 0.28125 9.10988 0.28125 20C0.28125 30.8901 9.10944 39.7183 19.9996 39.7183Z" stroke="#333333"/>
+							<path d="M26.3503 12.4981L9.88177 18.923C8.75789 19.3797 8.76437 20.014 9.67558 20.2968L13.9037 21.6313L23.6863 15.3868C24.1489 15.1021 24.5716 15.2553 24.2241 15.5672L16.2983 22.8041H16.2964L16.2983 22.805L16.0066 27.2142C16.4339 27.2142 16.6224 27.0159 16.8621 26.7819L18.9158 24.7615L23.1876 27.9537C23.9752 28.3926 24.5409 28.1671 24.7369 27.2161L27.5411 13.8456C27.8281 12.6814 27.1018 12.1541 26.3503 12.4981Z" fill="#333333"/>
+							</g>
+							<defs>
+							<clipPath id="clip0_34_17">
+							<rect width="40" height="40" fill="white"/>
+							</clipPath>
+							</defs>
+						</svg>							
+					</a>
+				</div>
+				<a href="tel:+7 (999) 555-44-33" class="call">+7 (999) 555-44-33</a>
+				<a href="#contacts" class="call__btn btn btn__wob">Заказать звонок</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="top__screen">
+		<div class="section__wrapper">
+			<div class="container">
+				<div class="top">
+					<div class="top__left">
+						<p class="subtitle">Семейный коттеджный посёлок</p>
+						<h1 class="title">Яркость жизни для всей семьи</h1>
+						<p class="start">Старт продаж</p>
+					</div>
+					<div class="top__right">
+						<img src="img/top_big.png" alt="">
+						<h3 class="top__bit__title">Встречайте яркую жизнь в коттеджном поселке Брусника</h3>
+						<a href="#contacts" class="btn">
+							<span>Записаться на экскурсию</span>
+							<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9H30V7H0V9Z" fill="white"/>
+							</svg>							
+						</a>
+					</div>
+				</div>
+	
+				<div class="bottom">
+					<div class="bottom__left">
+						<div class="bottom__block">
+							<img src="img/top_1.png" alt="">
+							<div class="block__info">
+								<h3 class="bottom__block__title">Концепция поселка</h3>
+								<a href="#about" class="icon__btn">
+									<svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.80373 7.50009C1.14536 1.83081 1.14552 1.83065 1.14552 1.83065C1.09894 1.78496 1.06208 1.73065 1.03713 1.67099C1.01219 1.61134 0.999467 1.54791 1.00002 1.48349C1.00057 1.41907 1.0141 1.35524 1.04006 1.29599C1.06602 1.23675 1.10403 1.18319 1.15138 1.13827C1.19874 1.09334 1.25449 1.05795 1.31594 1.03427C1.37739 1.01059 1.44322 0.998859 1.50929 1.00009C1.57535 1.00131 1.6407 1.01516 1.70119 1.0411C1.76167 1.06704 1.81626 1.1048 1.86183 1.15145C7.85861 7.16049 7.85842 7.16024 7.85842 7.16024C7.94922 7.25119 8.00002 7.37319 8.00002 7.50009C8.00002 7.62699 7.94922 7.74898 7.85842 7.83993C1.86164 13.849 1.86183 13.8487 1.86183 13.8487C1.81626 13.8953 1.76167 13.9331 1.70119 13.9591C1.6407 13.985 1.57535 13.9989 1.50929 14.0001C1.44322 14.0013 1.37739 13.9896 1.31594 13.9659C1.25449 13.9422 1.19874 13.9068 1.15138 13.8619C1.10403 13.8169 1.06602 13.7634 1.04006 13.7042C1.0141 13.6449 1.00057 13.5811 1.00002 13.5167C0.999467 13.4523 1.01219 13.3888 1.03713 13.3292C1.06208 13.2695 1.09894 13.2152 1.14552 13.1695C6.80389 7.50022 6.80373 7.50009 6.80373 7.50009Z" fill="white" stroke="white"/>
+									</svg>									
+								</a>
+							</div>
+						</div>
+						<div class="bottom__block">
+							<img src="img/top_2.png" alt="">
+							<div class="block__info">
+								<h3 class="bottom__block__title">Благоустройство</h3>
+								<a href="#benefits" class="icon__btn">
+									<svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.80373 7.50009C1.14536 1.83081 1.14552 1.83065 1.14552 1.83065C1.09894 1.78496 1.06208 1.73065 1.03713 1.67099C1.01219 1.61134 0.999467 1.54791 1.00002 1.48349C1.00057 1.41907 1.0141 1.35524 1.04006 1.29599C1.06602 1.23675 1.10403 1.18319 1.15138 1.13827C1.19874 1.09334 1.25449 1.05795 1.31594 1.03427C1.37739 1.01059 1.44322 0.998859 1.50929 1.00009C1.57535 1.00131 1.6407 1.01516 1.70119 1.0411C1.76167 1.06704 1.81626 1.1048 1.86183 1.15145C7.85861 7.16049 7.85842 7.16024 7.85842 7.16024C7.94922 7.25119 8.00002 7.37319 8.00002 7.50009C8.00002 7.62699 7.94922 7.74898 7.85842 7.83993C1.86164 13.849 1.86183 13.8487 1.86183 13.8487C1.81626 13.8953 1.76167 13.9331 1.70119 13.9591C1.6407 13.985 1.57535 13.9989 1.50929 14.0001C1.44322 14.0013 1.37739 13.9896 1.31594 13.9659C1.25449 13.9422 1.19874 13.9068 1.15138 13.8619C1.10403 13.8169 1.06602 13.7634 1.04006 13.7042C1.0141 13.6449 1.00057 13.5811 1.00002 13.5167C0.999467 13.4523 1.01219 13.3888 1.03713 13.3292C1.06208 13.2695 1.09894 13.2152 1.14552 13.1695C6.80389 7.50022 6.80373 7.50009 6.80373 7.50009Z" fill="white" stroke="white"/>
+									</svg>								
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bottom__right">
+						<a href="#projects" class="top__big__btn">
+							<span>Выбрать дом</span>
+							<svg width="403" height="279" viewBox="0 0 403 279" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M139.5 278C63.0086 278 1 215.991 1 139.5C1 63.0086 63.0086 1 139.5 1C188.566 1 231.673 26.5147 256.277 65H257.462C232.739 25.9368 189.149 0 139.5 0C62.4563 0 0 62.4563 0 139.5C0 216.544 62.4563 279 139.5 279C188.724 279 231.993 253.505 256.823 215H255.631C230.924 252.927 188.14 278 139.5 278Z" fill="white"/>
+								<path d="M402.707 172.707C403.098 172.317 403.098 171.683 402.707 171.293L396.343 164.929C395.953 164.538 395.319 164.538 394.929 164.929C394.538 165.319 394.538 165.953 394.929 166.343L400.586 172L394.929 177.657C394.538 178.047 394.538 178.681 394.929 179.071C395.319 179.462 395.953 179.462 396.343 179.071L402.707 172.707ZM192 173H402V171H192V173Z" fill="white"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="section__wrapper">
+			<h2 class="section__title">Брусника - это современно</h2>
+			<p>Брусника - это больше чем коттеджный посёлок. Это целое комьюнити для активных семей, где каждый найдет современный комфорт в гармонии с динамичной жизнью.</p>
+			<img src="img/venok.png" alt="">
+			<div class="about__list">
+				<div class="about__item">
+					<h3 class="about__item__title">50 домов</h3>
+					<div class="about__item__text">в едином архитектурном стиле</div>
+				</div>
+				<div class="about__item">
+					<h3 class="about__item__title">5 га</h3>
+					<div class="about__item__text">территория проекта</div>
+				</div>
+				<div class="about__item">
+					<h3 class="about__item__title">От 6 до 11 соток</h3>
+					<div class="about__item__text">для полноценного двора</div>
+				</div>
+				<div class="about__item">
+					<h3 class="about__item__title">30 км</h3>
+					<div class="about__item__text">от города</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="benefits" id="benefits">
+		<div class="section__wrapper">
+			<h2 class="section__title">Брусника - это комфорт</h2>
+			<p>Живописные пейзажи, удобная инфраструктура и безопасная среда - вот что делает коттеджный посёлок Брусника идеальным местом для создания семейной истории.</p>
+			<div class="slider__container">
+				<div class="benefits__slider swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide benefits__item">
+							<img src="img/slide_1.png" alt="">
+							<p class="benefits__text">Закрытая территория</p>
+						</div>
+						<div class="swiper-slide benefits__item">
+							<img src="img/slide_2.png" alt="">
+							<p class="benefits__text">Видеонаблюдение</p>
+						</div>
+						<div class="swiper-slide benefits__item">
+							<img src="img/slide_3.png" alt="">
+							<p class="benefits__text">Детские и спортивные площадки</p>
+						</div>
+						<div class="swiper-slide benefits__item">
+							<img src="img/slide_4.png" alt="">
+							<p class="benefits__text">Управляющая Компания</p>
+						</div>
+						<div class="swiper-slide benefits__item">
+							<img src="img/slide_5.png" alt="">
+							<p class="benefits__text">Школа и детский сад  </p>
+						</div>
+						<div class="swiper-slide benefits__item">
+							<img src="img/slide_6.png" alt="">
+							<p class="benefits__text">Коммуникации в домах: электроснабжение и автономные коммуникации</p>
+						</div>
+					</div>
+				</div>
+				<div class="slider__arrows">
+					<a href="#" class="icon__btn arrow prev">
+						<svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.80373 7.50009C1.14536 1.83081 1.14552 1.83065 1.14552 1.83065C1.09894 1.78496 1.06208 1.73065 1.03713 1.67099C1.01219 1.61134 0.999467 1.54791 1.00002 1.48349C1.00057 1.41907 1.0141 1.35524 1.04006 1.29599C1.06602 1.23675 1.10403 1.18319 1.15138 1.13827C1.19874 1.09334 1.25449 1.05795 1.31594 1.03427C1.37739 1.01059 1.44322 0.998859 1.50929 1.00009C1.57535 1.00131 1.6407 1.01516 1.70119 1.0411C1.76167 1.06704 1.81626 1.1048 1.86183 1.15145C7.85861 7.16049 7.85842 7.16024 7.85842 7.16024C7.94922 7.25119 8.00002 7.37319 8.00002 7.50009C8.00002 7.62699 7.94922 7.74898 7.85842 7.83993C1.86164 13.849 1.86183 13.8487 1.86183 13.8487C1.81626 13.8953 1.76167 13.9331 1.70119 13.9591C1.6407 13.985 1.57535 13.9989 1.50929 14.0001C1.44322 14.0013 1.37739 13.9896 1.31594 13.9659C1.25449 13.9422 1.19874 13.9068 1.15138 13.8619C1.10403 13.8169 1.06602 13.7634 1.04006 13.7042C1.0141 13.6449 1.00057 13.5811 1.00002 13.5167C0.999467 13.4523 1.01219 13.3888 1.03713 13.3292C1.06208 13.2695 1.09894 13.2152 1.14552 13.1695C6.80389 7.50022 6.80373 7.50009 6.80373 7.50009Z" fill="white" stroke="white"/>
+						</svg>								
+					</a>
+					<a href="#" class="icon__btn arrow next">
+						<svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.80373 7.50009C1.14536 1.83081 1.14552 1.83065 1.14552 1.83065C1.09894 1.78496 1.06208 1.73065 1.03713 1.67099C1.01219 1.61134 0.999467 1.54791 1.00002 1.48349C1.00057 1.41907 1.0141 1.35524 1.04006 1.29599C1.06602 1.23675 1.10403 1.18319 1.15138 1.13827C1.19874 1.09334 1.25449 1.05795 1.31594 1.03427C1.37739 1.01059 1.44322 0.998859 1.50929 1.00009C1.57535 1.00131 1.6407 1.01516 1.70119 1.0411C1.76167 1.06704 1.81626 1.1048 1.86183 1.15145C7.85861 7.16049 7.85842 7.16024 7.85842 7.16024C7.94922 7.25119 8.00002 7.37319 8.00002 7.50009C8.00002 7.62699 7.94922 7.74898 7.85842 7.83993C1.86164 13.849 1.86183 13.8487 1.86183 13.8487C1.81626 13.8953 1.76167 13.9331 1.70119 13.9591C1.6407 13.985 1.57535 13.9989 1.50929 14.0001C1.44322 14.0013 1.37739 13.9896 1.31594 13.9659C1.25449 13.9422 1.19874 13.9068 1.15138 13.8619C1.10403 13.8169 1.06602 13.7634 1.04006 13.7042C1.0141 13.6449 1.00057 13.5811 1.00002 13.5167C0.999467 13.4523 1.01219 13.3888 1.03713 13.3292C1.06208 13.2695 1.09894 13.2152 1.14552 13.1695C6.80389 7.50022 6.80373 7.50009 6.80373 7.50009Z" fill="white" stroke="white"/>
+						</svg>								
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="form">
+		<div class="section__wrapper">
+			<div class="form__container">
+				<div class="form__content">
+					<p class="form__text">Свой большой дом для семьи по стоимости однокомнатной квартиры в городе</p>
+					<form action="#">
+						<input type="text" name="name" class="form__input" placeholder="Ваше имя">
+						<input type="tel" name="phone" class="form__input" placeholder="Ваш телефон">
+						<div class="politics">
+							<input type="checkbox" class="custom-checkbox" id="check" name="check" value="yes" checked>
+							<label for="check">Нажимая кнопку «Отправить», вы подтверждаете свое <a href="#" class="politics__link">согласие на обработку персональных данных</a></label>
+						</div>
+						<input type="submit" value="Отправить" class="btn submit__btn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects" id="projects">
+		<div class="section__wrapper">
+			<h2 class="section__title">Проекты</h2>
+			<div class="projects__wrapper">
+				<div class="projects__nav">
+					<a href="#" class="project__nav__item active" data-num="1">
+						<span class="size">68 м<sup>2</sup></span>
+						<span class="name">одноэтажный дом</span>
+					</a>
+					<a href="#" class="project__nav__item" data-num="2">
+						<span class="size">100 м<sup>2</sup></span>
+						<span class="name">двухэтажный дом</span>
+					</a>
+					<a href="#" class="project__nav__item" data-num="3">
+						<span class="size">113 м<sup>2</sup></span>
+						<span class="name">одноэтажный дом</span>
+					</a>
+					<a href="#" class="project__nav__item" data-num="4">
+						<span class="size">128 м<sup>2</sup></span>
+						<span class="name">двухэтажный дом</span>
+					</a>
+					<a href="#" class="project__nav__item" data-num="5">
+						<span class="size">85 м<sup>2</sup></span>
+						<span class="name">одноэтажный дом</span>
+					</a>
+					<a href="#" class="project__nav__item" data-num="6">
+						<span class="size">156 м<sup>2</sup></span>
+						<span class="name">двухэтажный дом</span>
+					</a>
+				</div>
+				<div class="projects__container">
+					<div class="project__item active" data-num="1">
+						<img src="img/project.png" alt="">
+						<a href="#" class="btn" data-num="1">Подробнее</a>
+						<div class="project__info project__1 hidden">
+							<ul class="project__info__text">
+								<li>— Металлочерепица "Каскад"</li>
+								<li>— Утепленная кровля</li>
+								<li>— Энергосберегающие окна</li>
+								<li>— Облицовочный кирпич</li>
+								<li>— Материал стен на выбор</li>
+								<li>— Входная металлическая дверь</li>
+								<li>— Фундамент из буронабивных свай с монолитным ростверком</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project__item" data-num="2">
+						<img src="img/home.png" alt="">
+						<a href="#" class="btn" data-num="2">Подробнее</a>
+						<div class="project__info project__1 hidden">
+							<ul class="project__info__text">
+								<li>— Металлочерепица "Каскад"</li>
+								<li>— Утепленная кровля</li>
+								<li>— Энергосберегающие окна</li>
+								<li>— Облицовочный кирпич</li>
+								<li>— Материал стен на выбор</li>
+								<li>— Входная металлическая дверь</li>
+								<li>— Фундамент из буронабивных свай с монолитным ростверком</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project__item" data-num="3">
+						<img src="img/plan.webp" alt="">
+						<a href="#" class="btn" data-num="3">Подробнее</a>
+						<div class="project__info project__1 hidden">
+							<ul class="project__info__text">
+								<li>— Металлочерепица "Каскад"</li>
+								<li>— Утепленная кровля</li>
+								<li>— Энергосберегающие окна</li>
+								<li>— Облицовочный кирпич</li>
+								<li>— Материал стен на выбор</li>
+								<li>— Входная металлическая дверь</li>
+								<li>— Фундамент из буронабивных свай с монолитным ростверком</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project__item" data-num="4">
+						<img src="img/h4.webp" alt="">
+						<a href="#" class="btn" data-num="4">Подробнее</a>
+						<div class="project__info project__1 hidden">
+							<ul class="project__info__text">
+								<li>— Металлочерепица "Каскад"</li>
+								<li>— Утепленная кровля</li>
+								<li>— Энергосберегающие окна</li>
+								<li>— Облицовочный кирпич</li>
+								<li>— Материал стен на выбор</li>
+								<li>— Входная металлическая дверь</li>
+								<li>— Фундамент из буронабивных свай с монолитным ростверком</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project__item" data-num="5"> 
+						<img src="img/h5.webp" alt="">
+						<a href="#" class="btn" data-num="5">Подробнее</a>
+						<div class="project__info project__1 hidden">
+							<ul class="project__info__text">
+								<li>— Металлочерепица "Каскад"</li>
+								<li>— Утепленная кровля</li>
+								<li>— Энергосберегающие окна</li>
+								<li>— Облицовочный кирпич</li>
+								<li>— Материал стен на выбор</li>
+								<li>— Входная металлическая дверь</li>
+								<li>— Фундамент из буронабивных свай с монолитным ростверком</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project__item" data-num="6"> 
+						<img src="img/h6.webp" alt="">
+						<a href="#" class="btn" data-num="6">Подробнее</a>
+						<div class="project__info project__1 hidden">
+							<ul class="project__info__text">
+								<li>— Металлочерепица "Каскад"</li>
+								<li>— Утепленная кровля</li>
+								<li>— Энергосберегающие окна</li>
+								<li>— Облицовочный кирпич</li>
+								<li>— Материал стен на выбор</li>
+								<li>— Входная металлическая дверь</li>
+								<li>— Фундамент из буронабивных свай с монолитным ростверком</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="home" id="home">
+		<div class="section__wrapper">
+			<h2 class="section__title">Технология строительства</h2>
+			<div class="home__detail">
+				<img src="img/home.png" alt="">
+				<div class="detail__item detail__1">
+					<div class="plus">+</div>
+					<div class="num">1</div>
+					<div class="detail__text">Металлочерепица “Каскад”, утепленная кровля</div>
+				</div>
+				<div class="detail__item detail__2">
+					<div class="plus">+</div>
+					<div class="num">2</div>
+					<div class="detail__text">Облицовочный кирпич двух цветов 120 мм.</div>
+				</div>
+				<div class="detail__item detail__3">
+					<div class="plus">+</div>
+					<div class="num">3</div>
+					<div class="detail__text">Стены из заводского полнотелого кирпича, марки м125,250 мм. Утеплитель 100 мм. Армирование несущей стены каждого 4 ряда. Заводские бетонные перемычки в оконных и дверных проёмах.</div>
+				</div>
+				<div class="detail__item detail__4">
+					<div class="plus">+</div>
+					<div class="num">4</div>
+					<div class="detail__text">Монолитный железобетонный свайно-ростверковый фундамент РОСТВЕРК 450 мм. Глубина свай 3 метра.</div>
+				</div>
+				<div class="detail__item detail__5">
+					<div class="plus">+</div>
+					<div class="num">5</div>
+					<div class="detail__text">Бессер блок.</div>
+				</div>
+			</div>
+			<div class="hidden__detail__list">
+				<div class="hidden__detail__text">1. Металлочерепица “Каскад”, утепленная кровля</div>
+				<div class="hidden__detail__text">2. Облицовочный кирпич двух цветов 120 мм.</div>
+				<div class="hidden__detail__text">3. Стены из заводского полнотелого кирпича, марки м125,250 мм. Утеплитель 100 мм. Армирование несущей стены каждого 4 ряда. Заводские бетонные перемычки в оконных и дверных проёмах.</div>
+				<div class="hidden__detail__text">4. Монолитный железобетонный свайно-ростверковый фундамент РОСТВЕРК 450 мм. Глубина свай 3 метра.</div>
+				<div class="hidden__detail__text">5. Бессер блок.</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="view" id="view">
+		<div class="section__wrapper">
+			<h2 class="section__title">Варианты отделок</h2>
+			<div class="view__list">
+				<div class="view__item">
+					<img src="img/card_two.webp" alt="">
+					<h3 class="view__title">White Box</h3>
+					<a href="#" class="btn view__more">Подробнее</a>
+					<div class="view__info">
+						<h3 class="view__plus">ДОПОЛНИТЕЛЬНО К ЧЕРНОВОЙ</h3>
+						<ul>
+							<li>Разводка отопления по комнатам, установка радиаторов отопления во всех комнатах
+							</li>
+							<li>Теплый пол на 1 этаже
+							</li>
+							<li>Полусухая стяжка пола толщиной 70мм
+							</li>
+							<li>Финишная шпаклевка под обои\покраску
+							</li>
+							<li>Натяжной ПВХ потолок с выпуском одной точки под точечный светильник в каждой комнате
+							</li>
+							<li>Оконные и дверные откосы из ПВХ панелей
+							</li>
+							<li>Чистая межэтажная лестница
+							</li>
+							<li>Разводка групповой линии освещения во всех комнатах с установкой выключателей и одного точечного светильника в каждой комнате
+							</li>
+							<li>Дополнительные автоматические выключатели (ВА) в распределительном шкафе (ШР) для групп освещения
+							</li>
+							<li>Разводка розеточной группы во всех комнатах, в том числе отдельная розеточных групп для электрической плиты 380В и водонагревателя 220В, с установкой розеток.
+							</li>
+							<li>Дополнительные дифференциальные автоматы (АД) в распределительном шкафе (ШР) для розеточных групп.
+							</li>
+							<li>Разводка водоснабжения и канализации в кухне- гостиной, санузле и ванной комнате, без установки санфаянса.
+							</li>
+							<li>Автономная система водоснабжения
+							</li>
+							<li>Дорожка к дому тротуарной плиткой 400х40х50
+							</li>
+							<li>Установка глубинного насоса для водоснабжения
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="view__item">
+					<img src="img/wb.png" alt="">
+					<h3 class="view__title">Черновая отделка</h3>
+					<a href="#" class="btn view__more">Подробнее</a>
+					<div class="view__info">
+						<ul>
+							<li>Обозначение угловых точек земельного участка трубами НКТ 60
+							</li>
+							<li>Входная металлическая дверь без откосов
+							</li>
+							<li>Окна ПВХ с двухкамерным стеклопакетом
+							</li>
+							<li>Скважина водоснабжения кессон. крышка и люк (без установки глубинного насоса)
+							</li>
+							<li>Ввод трубы водоснабжения с кабелем для глубинного насоса дом (без разводки, без автономной системы водоснабжения)
+							</li>
+							<li>Шамбо из ж\б колец диаметром 1000мм, глубиной до Зм, без днища
+							</li>
+							<li>Ввод канализации в дом (без разводки)
+							</li>
+							<li>Стены без штукатурки
+							</li>
+							<li>Возведены межкомнатные перегородки (без затирки шов)
+							</li>
+							<li>Элекстрокабель-сип от опоры до фасада ИЖД с установкой вводного шкафа
+							</li>
+							<li>Комплектация Вводного шкафа: 3х-фазный вводной автоматический выключатель, 3-х фазный электрический счетчик
+							</li>
+							<li>Ввод электроснабжения в дом с установкой распределительного шкафа
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="map" id="map">
+		<div class="section__wrapper">
+			<h2 class="section__title">Расположение</h2>
+			<p>Создайте свои семейные истории в коттеджном посёлке Брусника. Мы находимся в деревне Осоргино - идеальное место для активных семей любого возраста! Здесь вы найдете все необходимые условия для комфортной жизни в окружении природы.</p>
+			<div class="map__wrapper">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9419a9f31bdc7c7087783a0bd4c05fd15ca163e4a20b6b1c82513daddf70f60f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		</div>
+	</section>
+
+	<section class="buy" id="buy">
+		<div class="section__wrapper">
+			<h2 class="section__title">Варианты приобретения</h2>
+			<div class="buy__list">
+				<div class="buy__item">
+					<span class="buy__text">Выгодные условия наличного расчета</span>
+					<span class="buy__num">01</span>
+				</div>
+				<div class="buy__item">
+					<span class="buy__text">Семейная ипотека от 6%</span>
+					<span class="buy__num">02</span>
+				</div>
+				<div class="buy__item">
+					<span class="buy__text">Ипотека с господдержкой от 8%</span>
+					<span class="buy__num">03</span>
+				</div>
+				<div class="buy__item">
+					<span class="buy__text">IT-ипотека от 5%</span>
+					<span class="buy__num">04</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="section__wrapper">
+			<p class="slogan">Строим счастливое будущее для вашей семьи в коттеджном посёлке Брусника</p>
+			<div class="contacts__wrapper">
+				<div class="contacts__list">
+					<div class="contact__list__item">
+						<p class="contact__list__title">Адрес</p>
+						<p class="contact__value">г. Уфа, ул. Достоевского, 68</p>
+					</div>
+					<div class="contact__list__item">
+						<p class="contact__list__title">Телефон</p>
+						<a href="tel:+7 (999) 555-44-33" class="contact__value">+7 (999) 555-44-33</a>
+					</div>
+					<div class="contact__list__item">
+						<p class="contact__list__title">Почта</p>
+						<a href="mailto:info@test.ru" class="contact__value">info@test.ru</a>
+					</div>
+				</div>
+				<div class="contacts__form">
+					<p class="contacts__form__text">Отправьте заявку через форму ниже, и мы свяжемся с вами в ближайшее время</p>
+					<form action="#">
+						<div class="row">
+							<input type="text" name="name" class="form__input" placeholder="Ваше имя">
+							<input type="tel" name="phone" class="form__input" placeholder="Ваш телефон">
+						</div>
+						<div class="row">
+							<input type="submit" value="Отправить" class="btn submit__btn">
+							<div class="politics">
+								<input type="checkbox" class="custom-checkbox" id="check__call" name="check" value="yes" checked>
+								<label for="check__call">Нажимая кнопку «Отправить», вы подтверждаете свое <a href="#" class="politics__link">согласие на обработку персональных данных</a></label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="section__wrapper">
+			<div class="copyright">Клубный коттеджный посёлок Брусника, 2024</div>
+			<a href="#" class="footer__link">Политика конфиденциальности</a>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+	<script>
+		SmoothScroll({
+			animationTime    : 800,
+			stepSize         : 75,
+	
+			
+			accelerationDelta : 30,  
+			accelerationMax   : 2,   
+	
+	
+			keyboardSupport   : true,  
+			arrowScroll       : 50,
+	
+	
+			pulseAlgorithm   : true,
+			pulseScale       : 4,
+			pulseNormalize   : 1,
+	
+			touchpadSupport   : true,
+		})
+	</script>
+	<script src="js/init.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
